@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   return (
-    <div className="w-full min-h-screen px-4 py-10 text-gray-900 bg-amber-200 from-gray-100 to-white">
+    <div className="w-full min-h-screen px-4 py-10 text-gray-900 bg-neutral-800 from-gray-100 to-white">
       <h1 className="mb-10 text-4xl font-extrabold tracking-tight text-center">Pokédex</h1>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {pokemonList.map((p) => (
